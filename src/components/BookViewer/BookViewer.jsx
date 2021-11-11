@@ -5,7 +5,7 @@ const BookViewer = (props) => {
     return ( <div className="row row-spacer">
     <div className="col-md-4">
         {/* {Button here to move to previouse book} */}
-        <button onClick={props.previousBook}>Previous Book</button>
+        <button onClick={props.previousBook}>Previous Book</button><br/><br/>
     </div>
     <div className="col-md-4">
     {/* {Display book with cover here} */}
